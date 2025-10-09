@@ -66,3 +66,57 @@ a visualization of how consistent action powered by faith produces impact.
 ```bash
 git clone https://github.com/Solomough/solomough-portfolio.git
 cd solomough-portfolio
+
+### 2️⃣ Install Dependencies
+```bash
+npm install
+
+### 3️⃣ Run development server
+Bash
+npm run dev
+
+### 4️⃣ Build for production
+Bash
+npm run build
+
+5️⃣ Deploy
+
+Upload the dist folder to Vercel or your hosting platform of choice.
+
+
+---
+
+🖼️ Favicon & Branding
+
+The favicon (✝️🏹) and color theme were designed to reflect faith, light, and forward motion —
+symbolizing divine guidance and purposeful creation.
+
+
+---
+
+💡 Vision
+
+> “Technology and Faith are not separate paths — they’re one divine continuum.”
+Solomough seeks to illuminate lives through words, code, and truth.
+
+
+
+
+---
+
+🕊️ License
+
+This project is released under the MIT License — freely usable for good and creative purposes.
+
+
+---
+
+🌠 Built & Blessed by Solomon Moughkaa Zahemen
+
+> “From visions to call — from code to purpose.”
+
+
+
+---
+
+

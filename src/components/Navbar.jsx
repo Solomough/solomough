@@ -6,7 +6,7 @@ export default function Navbar() {
     <header className="bg-black/30 backdrop-blur sticky top-0 z-40">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3">
-          <img src="/src/assets/dp.png" alt="logo" className="w-10 h-10 rounded-full border-2" />
+          <img src="../src/assets/dp.png" alt="logo" className="w-10 h-10 rounded-full border-2" />
           <div>
             <div className="text-white font-semibold">Solomon Moughkaa Zahemen</div>
             <div className="text-xs text-gray-400">Out of Darkness to Light ✝️</div>

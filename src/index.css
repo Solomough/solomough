@@ -1,1 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+:root { --gold: #d4af37 }
+html,body,#root { height: 100%; }
+body { @apply bg-gradient-to-b from-[#050406] to-[#0b0f1a] text-slate-100; }
+
+/* small utility for glass look */
+.glass { background: rgba(16,20,26,0.55); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.04); }
+
+/* hero title sizes */
+.hero-title { font-family: 'Playfair Display', serif; font-weight: 800; }
+
+/* accessible focus */
+:focus { outline: 3px solid rgba(212,160,103,0.18); outline-offset: 3px; }

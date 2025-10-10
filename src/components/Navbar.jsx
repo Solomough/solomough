@@ -7,15 +7,29 @@ export default function Navbar() {
   return (
     <header className="bg-black/30 backdrop-blur sticky top-0 z-40 border-b border-gray-800/60">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-        {/* Animated Text Logo */}
+        
+        {/* Animated “SM” Logo */}
         <a href="#" className="flex items-center gap-3">
           <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }}
-            className="text-3xl font-extrabold text-gold tracking-widest drop-shadow-[0_0_10px_#d4af37]"
+            initial={{ opacity: 0, scale: 0.9, rotate: 0 }}
+            animate={{
+              opacity: 1,
+              scale: [1, 1.05, 1],
+              rotate: [0, 10, 0, -10, 0],
+              textShadow: [
+                "0 0 6px rgba(212,175,55,0.6)",
+                "0 0 14px rgba(212,175,55,0.9)",
+                "0 0 6px rgba(212,175,55,0.6)"
+              ]
+            }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }}
+            className="text-3xl font-extrabold text-gold tracking-widest select-none"
             style={{
-              textShadow: '0 0 8px rgba(212,175,55,0.8), 0 0 15px rgba(212,175,55,0.6)',
+              textShadow: '0 0 10px rgba(212,175,55,0.8), 0 0 20px rgba(212,175,55,0.5)'
             }}
           >
             SM
@@ -62,4 +76,4 @@ export default function Navbar() {
       )}
     </header>
   )
-    }
+}

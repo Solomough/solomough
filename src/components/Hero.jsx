@@ -29,7 +29,7 @@ export default function Hero() {
         transition={{ duration:0.6 }} 
         className="flex flex-col items-center"
       >
-        <img src="../src/assets/dp.png" alt="portrait" className="w-48 h-48 rounded-full border-4 border-[#d4af37]/60" />
+        <img src="/src/assets/dp.png" alt="portrait" className="w-48 h-48 rounded-full border-4 border-[#d4af37]/60" />
         <div className="text-center mt-4">
           <div className="text-sm font-semibold text-white">Solomough — Out of Darkness to Light</div>
           <div className="text-xs text-gray-400">Software Engineer • AI • Web • Web3 • Writer • Kingdom Strategist</div>

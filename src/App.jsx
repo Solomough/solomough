@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import ParticlesBg from './components/ParticlesBg'
 import Graph from './components/Graph'
+import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -23,6 +24,7 @@ export default function App() {
           <Graph />
         </section>
 
+        <About />
         <Projects />
         <Contact />
         <Footer />

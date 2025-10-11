@@ -47,7 +47,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/meet-me"
+              href="#MeetMe"
               className="px-5 py-2 border border-yellow-400/70 rounded-md text-sm text-yellow-300 hover:bg-yellow-400 hover:text-black transition-all"
             >
               Meet Me

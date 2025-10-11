@@ -69,7 +69,7 @@ export default function Navbar() {
         >
           <a href="#about" className="block py-1 hover:text-gold">About</a>
           <a href="#projects" className="block py-1 hover:text-gold">Projects</a>
-          <a href="#books" className="block py-1 hover:text-gold">Book</a>
+
           <a href="#contact" className="block py-1 hover:text-gold">Contact</a>
         </motion.nav>
       )}

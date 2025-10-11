@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import dp from "../assets/dp.png";
+import dp2 from "../assets/dp2.png";
 
 export default function About() {
   return (
@@ -28,7 +28,7 @@ export default function About() {
           className="w-64 h-64 rounded-full overflow-hidden border-4 border-gray-700 shadow-lg hover:scale-105 transition-transform"
         >
           <img
-            src={dp}
+            src={dp2}
             alt="Solomough - Faith Inspired Innovation"
             className="w-full h-full object-cover"
           />

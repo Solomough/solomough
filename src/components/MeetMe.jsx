@@ -4,7 +4,7 @@ import dp2 from '../assets/dp2.png' // add your standing portrait as src/assets/
 
 export default function MeetMe() {
   return (
-    <section id="MeetMe" className="relative z-10 py-20 px-6 md:px-16">
+    <section id="meet-me" className="relative z-10 py-20 px-6 md:px-16">
       {/* Transparent wrapper so background motion shows through */}
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center bg-transparent">
         {/* Left: Story */}

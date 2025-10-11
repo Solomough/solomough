@@ -43,7 +43,7 @@ export default function Navbar() {
 
         {/* Desktop Navigation */}
         <nav className="hidden sm:flex gap-6 text-sm">
-          <a href="#MeetMe" className="hover:text-gold transition">MeetMe</a>
+          <a href="#meet-me" className="hover:text-gold transition">MeetMe</a>
           <a href="#about" className="hover:text-gold transition">About</a>
           <a href="#projects" className="hover:text-gold transition">Projects</a>
           <a href="#contact" className="hover:text-gold transition">Contact</a>
@@ -69,7 +69,7 @@ export default function Navbar() {
           className="sm:hidden bg-black/60 px-4 py-3 border-t border-gray-800"
         >
           <a href="#about" className="block py-1 hover:text-gold">About</a>
-          <a href="#MeetMe" className="block py-1 hover:text-gold">MeetMe</a>
+          <a href="#meet-me" className="block py-1 hover:text-gold">MeetMe</a>
           <a href="#projects" className="block py-1 hover:text-gold">Projects</a>
 
           <a href="#contact" className="block py-1 hover:text-gold">Contact</a>

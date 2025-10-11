@@ -45,7 +45,6 @@ export default function Navbar() {
         <nav className="hidden sm:flex gap-6 text-sm">
           <a href="#about" className="hover:text-gold transition">About</a>
           <a href="#projects" className="hover:text-gold transition">Projects</a>
-          <a href="#books" className="hover:text-gold transition">Book</a>
           <a href="#contact" className="hover:text-gold transition">Contact</a>
         </nav>
 

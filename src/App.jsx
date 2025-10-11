@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import ParticlesBg from './components/ParticlesBg'
 import Graph from './components/Graph'
 import About from './components/About'
+import MeetMe from './components/MeetMe'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -25,6 +26,7 @@ export default function App() {
         </section>
 
         <About />
+        <MeetMe/>
         <Projects />
         <Contact />
         <Footer />

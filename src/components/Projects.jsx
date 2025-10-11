@@ -24,8 +24,8 @@ export default function Projects(){
 
         <article className="p-5 glass rounded-md shadow-md col-span-full sm:col-span-2 lg:col-span-1">
           <div className="flex items-start gap-4">
-            <img src="/src/assets/dp.png" alt="From Visions to Call" className="w-20 h-20 rounded-md" />
-            <div>
+          
+             <div>
               <h3 className="font-semibold text-white">From Visions to Call</h3>
               <p className="text-gray-300 mt-1 text-sm">A testimony of divine encounters and practical steps into destiny.</p>
               <div className="mt-3 text-xs">

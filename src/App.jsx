@@ -26,7 +26,7 @@ export default function App() {
         </section>
 
         <About />
-        <MeetMe/>
+        <MeetMe />
         <Projects />
         <Contact />
         <Footer />
